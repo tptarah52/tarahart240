@@ -1,0 +1,86 @@
+body {
+}
+
+/* blinking text effect 8*/
+
+/*
+.blinking38: hover{
+	cursor: pointer;
+}
+*/
+
+.content {
+	font-family: 'Rampart One', cursive;
+	    /* padding: 200px; */
+	    font-size: 80px;
+	    /* width: 2000px; */
+	    /* height: 100vh; */
+	    font-color: red;
+	    justify-content: space-evenly;
+	    /* background-color: green; */
+	    /* align-items: stretch; */
+	    display: flex;
+	    margin: 24px;
+}
+
+
+.wrapper {
+	 display: flex;
+  flex-direction: column;
+}
+
+
+
+.left {
+  /*background-color:  yellow; */
+}
+
+.right {
+	/* background-color:  red; */
+}
+
+.footsteps {
+	/* background-color:  blue; */
+}
+
+
+.blinking38:hover {
+	
+	animation: blinkingText 1.2s infinite;
+	
+}
+
+@keyframes blinkingText {
+	0%{ color: forestgreen; }
+	49%{ color: forestgreen; }
+	60%{ color: transparent; }
+	99%{ color: transparent; }
+	100%{ color: forestgreen; }
+}
+
+
+.blinking37:hover {
+	
+	animation: blinkingText 1.2s infinite;
+	
+}
+
+.blinking36:hover {
+	animation: blinkingText 1.2s infinite;
+	
+}
+
+.blinking35:hover {
+	animation: blinkingText 1.2s infinite;
+	
+}
+
+.blinking34:hover {
+	animation: blinkingText 1.2s infinite;
+	
+}
+
+.blinking33:hover {
+	animation: blinkingText 1.2s infinite;
+	
+}

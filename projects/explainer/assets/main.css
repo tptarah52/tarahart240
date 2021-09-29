@@ -1,0 +1,180 @@
+body {
+	max-width: 100%;
+
+}
+
+* {
+	box-sizing: border-box;
+	margin: 30px;
+	padding: 0;
+}
+
+body h1 {
+	font-family: 'Rampart One', cursive;
+	font-size: 65px;
+}
+
+.studyspace {
+	align-items: right;
+	background-color: white;
+	bottom: 0;
+	display: flex;
+	justify-content: center;
+	height: 100vh;
+	padding:  1rem;
+	position: sticky;
+	width: 100%;
+	z-index: -1;
+}
+
+.vanpelt img {
+	filter:  blur(5px);
+}
+
+.studyspace:nth-child(2) {
+	background-image: url(https://www.library.upenn.edu/sites/default/files/2018-03/moelisgranddoor.jpg);
+	padding: 200px;
+	z-index: -2;
+}
+
+.studyspace:nth-child(3) {
+	background-image: url(https://data.openasset.com/397453f2/0b784458271afd008a69c7f628908276/USA_6828_N7_tif/USA_6828_N7_carousel.jpg);
+	padding: 200px;
+	z-index: -3;
+}
+
+.studyspace:last-child {
+	background-image: url(https://images.adsttc.com/media/images/5933/5c6f/e58e/ce2f/ea00/02ae/newsletter/7._Penn_NCH_JT_160829_469V2.jpg?1496538219);
+	z-index: -4;
+}
+/*
+.vanpelt {
+	position: fixed;
+	top: 30;
+	right: 0;
+	display: flex;
+	flex-direction: column;
+}
+*/
+
+.address {
+	position: fixed;
+	top:  30;
+	left: 0;
+}
+
+
+/*
+
+
+.vanpelt p {
+	font-size: 18px;
+}
+
+/* blinking text effect 8*/
+
+/*
+.blinking38: hover{
+	cursor: pointer;
+}
+
+
+
+/* Tablet breakpoint */
+@media (min-width: 768px) {
+  body {
+    font-size: 24px;
+  }
+}
+
+/* Desktop breakpoint */
+@media (min-width: 992px) {
+  body {
+    font-size: 50px;
+  }
+}
+
+/* Wide screen breakpoint */
+@media (min-width: 1200px) {
+  body {
+    font-size: 60px;
+  }
+}
+
+
+.content {
+	font-family: 'Rampart One', cursive;
+	    /* padding: 200px; */
+	    font-size: 65px;
+	    /* width: 2000px; */
+	    /* height: 100vh; */
+	    font-color: red;
+	    justify-content: space-evenly;
+	    /* background-color: green; */
+	    /* align-items: stretch; */
+	    display: flex;
+	    margin: 48px;
+}
+
+
+/*
+
+.wrapper {
+	 display: flex;
+  flex-direction: column;
+}
+
+
+.left {
+  /*background-color:  yellow; 
+}
+
+
+ /*
+.right {
+	/* background-color:  red; *
+}
+
+
+.footsteps {
+	/* background-color:  blue; *
+}
+
+.blinking:hover {
+	
+	animation: blinkingText 1.2s infinite;
+	
+}
+
+/*
+
+@keyframes blinkingText {
+	0%{ color: forestgreen; }
+	49%{ color: forestgreen; }
+	60%{ color: transparent; }
+	99%{ color: transparent; }
+	100%{ color: forestgreen; }
+}
+
+
+/* I was trying to have everything else blue except for one them
+that was hovered over 
+@media (.blinking38: hover) {
+	.wrapper right {
+		opacity: 0;
+	}
+}
+
+
+
+.vanpelt {
+	align-content: center;
+	justify-content: right;
+
+}
+*/
+
+
+
+
+
