@@ -1,0 +1,113 @@
+body {
+	max-width: 100%;
+
+
+}
+
+h1 {
+	font-family: 'Poppins', sans-serif;
+	font-size: 80px;
+	letter-spacing: 9px;
+}
+
+h2 {
+	font-family: 'Poppins', sans-serif;
+	font-weight: 200;
+	font-size: 40px;
+}
+
+p {
+	font-family: 'Crimson Text', serif;
+	font-size: 22px;
+	width: 1200px;
+}
+
+
+
+img {
+	max-width: 50%;
+	max-height: 50%;
+	float: right;
+}
+
+/*if the screen reaches size of phone*/
+
+@media (max-width:  768px) {
+
+	.content {
+		padding: 5px;
+		margin: 2vh;
+	}
+	p {
+		font-size: 12px;
+	}
+
+	h1 {
+		font-size: 40px;
+	}
+
+	h2 {
+		font-size: 20px;
+
+	}
+}
+
+@media (min-width: 992px) {
+	img {
+		width: 25%;
+		height: 25%;
+
+	}
+}
+.content {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	padding: 200px;
+	margin: 10vh;
+}
+
+.text opening {
+	display: block;
+	margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+/*
+.intro {
+	display: flex;
+}
+*/
+
+.profile {
+	display: block;
+	/*
+	margin-left: 65vw;
+	*/
+    margin-top: -700px;
+    padding: 10px;
+}
+
+.profile2 {
+	display: block;
+    margin-left: 65vw;
+    margin-top: -700px;
+   
+}
+
+.profile3 {
+	display: block;
+    margin-left: 65vw;
+    margin-top: -600px;
+   
+}
+
+.profile4 {
+	display: block;
+    margin-left: 65vw;
+    margin-top: -400px;
+}
+
