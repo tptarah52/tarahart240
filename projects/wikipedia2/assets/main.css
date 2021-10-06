@@ -25,7 +25,7 @@ p {
 }
 
 .header {
-	padding: 10vh;
+	padding: 1vh;
 	font-family: 'La Belle Aurore', cursive;
 	font-size: 58px;
 	text-align: center;
@@ -134,6 +134,6 @@ svg text {
 	flex-direction: column;
 	justify-content: space-between;
 	flex-wrap: wrap;
-	padding: 200px;
+	padding: 100px;
 	margin: 10vh;
 }
