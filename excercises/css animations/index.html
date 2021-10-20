@@ -1,0 +1,42 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Animation Activity</title>
+  <link rel="stylesheet" type="text/css" href="assets/main.css">
+</head>
+<body>
+
+  <svg width="660" height="220">
+  <defs>
+    <linearGradient id="linear" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%"   stop-color="#e66465"/>
+      <stop offset="100%" stop-color="#9198e5"/>
+    </linearGradient>
+  </defs>
+
+</svg>
+
+  <div class="container">
+    <div class="item1"> 
+      <svg class = "circle" expanded = "true" height = "800px" width = "800px">
+      <circle cx = "50%" cy = "50%" r = "35%" stroke = "#000000" stroke-width = "10%" fill = "none"/>
+      <circle class = "innerCircle" cx = "50%" cy = "50%" r = "25%" stroke = "url(#linear)" stroke-width = "5%" fill = "none" opacity = "50%"/>
+    </div>
+    
+    <div class="item2"> 
+       <svg class = "circle" expanded = "true" height = "800px" width = "800px">
+      <circle cx = "50%" cy = "50%" r = "35%" stroke = "#000000" stroke-width = "5%" fill = "none"/>
+      <circle class = "innerCircle" cx = "50%" cy = "50%" r = "25%" stroke = "url(#linear)" stroke-width = "5%" fill = "none" opacity = "50%"/>
+    </div>
+
+    <div class="item3">
+    <svg class = "circle" expanded = "true" height = "800px" width = "800px">
+      <circle cx = "50%" cy = "50%" r = "35%" stroke = "#000000" stroke-width = "5%" fill = "none"/>
+      <circle class = "innerCircle" cx = "50%" cy = "50%" r = "25%" stroke = "url(#linear)" stroke-width = "5%" fill = "none" opacity = "50%"/> 
+    </div>
+    
+    </svg>
+  </div>
+</body>
+</html>

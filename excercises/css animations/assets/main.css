@@ -1,0 +1,51 @@
+
+body {
+  /*
+   background: repeating-radial-gradient(#e66465, #9198e5 20%);
+   */
+
+}
+
+@keyframes circleTransition {
+  from {
+    r: 5%;
+  }
+  to {
+    r: 25%;
+  }
+}
+
+.container {
+   margin: 10px 10px;
+  display: flex;
+  justify-content: space-between;
+    align-content: space-between;
+    flex-wrap: nowrap;
+}
+
+.innerCircle {
+  animation-duration: 6s;
+  animation-iteration-count: infinite;
+  animation-name: circleTransition;
+  stroke-color: repeating-radial-gradient(#e66465, #9198e5 20%);
+}
+
+.circle {
+animation: my_animation 3s linear forwards;
+  stroke-dasharray: 400;
+  animation-iteration-count:infinite;
+}
+
+@keyframes my_animation {
+  0% {
+    stroke-dashoffset: 0; 
+  }
+  50% {
+    stroke-dashoffset: 400;
+  }
+  100% {
+    stroke-dashoffset: 0; 
+  }
+}
+
+
