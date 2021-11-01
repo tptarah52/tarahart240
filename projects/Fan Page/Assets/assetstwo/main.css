@@ -1,0 +1,80 @@
+body {
+	padding: 75px;
+	background-color: rgba(31, 158, 154, 0.2);
+}
+
+hr {
+	height: 10px;
+	border: none;
+	border-top: 3px double rgba(31, 158, 154, 0.2);
+	color: rgba(31, 158, 154, 0.2);
+}
+
+.prompt {
+	font-family: 'Ropa Sans', sans-serif;
+	font-size: 64px;
+	font-style: normal;
+}
+
+.click {
+	font-family: 'Ropa Sans', sans-serif;
+	font-size: 30px;
+	font-style: normal;
+}
+
+.outerContainer {
+	/*
+	display: flex;
+	flex-direction: row;
+	align-content: space-evenly;
+	justify-content: safe center;
+	column-gap: 30px;
+	*/
+	position: absolute;
+}
+
+
+
+/*
+
+.testcircle{
+  border-radius: 50%;
+  box-shadow: 0 0 0 0 rgba(0, 0, 0, 1);
+  margin: 10px;
+  height: 300px;
+  width: 300px;
+  transform: scale(3);
+  animation: pulse-black 5s infinite;
+}
+
+
+*/
+
+.circle {
+	background: #6699cc;
+	border-radius: 50%;
+	margin: 10px;
+	height: 50px;
+	width: 50px;
+
+	box-shadow: 0 0 0 0 rgba(0, 0, 0, 1);
+	transform: scale(4);
+	animation: pulse-black 4s infinite;
+}
+
+@keyframes pulse-black {
+  0% {
+    transform: scale(0.95);
+    box-shadow: 0 0 0 0 rgba(0, 0, 0, 0.7);
+  }
+  
+  70% {
+    transform: scale(1);
+    box-shadow: 0 0 0 10px rgba(0, 0, 0, 0);
+  }
+  
+  100% {
+    transform: scale(0.95);
+    box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
+  }
+}
