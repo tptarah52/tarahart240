@@ -9,13 +9,38 @@ body {
 }
 
 .container {
+  /*
 	display: flex;
 	flex-direction: row;
 	align-content: space-evenly;
 	justify-content: space-between;
 	column-gap: 30px;
+  */
+  width: 600px;
+      height: 400px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      overflow: hidden;
+      position: relative;
 }
 
+.circle {
+      border-radius: 50%;
+      background-color: deepskyblue;
+      width: 150px;
+      height: 150px;
+      position: absolute;
+      opacity: 0;
+      animation: scaleIn 4s infinite cubic-bezier(.36, .11, .89, .32);
+    }
+
+     .item {
+      z-index: 100;
+      padding: 5px;
+    }
+
+/*
 .testcircle{
   border-radius: 50%;
   box-shadow: 0 0 0 0 rgba(0, 0, 0, 1);
@@ -25,8 +50,18 @@ body {
   transform: scale(3);
   animation: pulse-black 5s infinite;
 }
+*/
 
-@keyframes pulse-black {
+@keyframes scaleIn {
+  from {
+    transform: scale(.5, .5);
+    opacity: .5;
+  }
+  to {
+    transform: scale(2.5, 2.5);
+    opacity: 0;
+  }
+  /*
   0% {
     transform: scale(0.95);
     box-shadow: 0 0 0 0 rgba(0, 0, 0, 0.7);
@@ -41,4 +76,5 @@ body {
     transform: scale(0.95);
     box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
   }
+  */
 }

@@ -1,0 +1,31 @@
+body {
+	background-color: black;
+	color: lightgray;
+}
+
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+h1 {
+  font-weight:  normal;
+}
+
+.button {
+  background-color: #E6CEA0;
+  border-radius: 20px;
+  padding: 20px 40px;
+  color: ghostwhite;
+  font-family: open sans-serif;
+  font-size: 36px;
+}
+
+.button:hover {
+  opacity: .8;
+  cursor: pointer;
+  transition: 90ms ease;
+}

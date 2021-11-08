@@ -3,6 +3,7 @@ body {
 	background-color: rgba(31, 158, 154, 0.2);
 }
 
+
 hr {
 	height: 10px;
 	border: none;
@@ -14,28 +15,99 @@ hr {
 	font-family: 'Ropa Sans', sans-serif;
 	font-size: 64px;
 	font-style: normal;
+	text-align: center;
 }
 
 .click {
 	font-family: 'Ropa Sans', sans-serif;
 	font-size: 30px;
 	font-style: normal;
+	display: flex;
+	justify-content: center;
 }
 
-.outerContainer {
+#outerContainer {
+	/* background-color: darkred; */
+	width: 100%;
+	height: 420px;
+	float: left;
+	position: relative;
+}
+
+.messages {
 	/*
+	background-color: blue;
+	*/
+	display: flex;
+	width: 340px;
+	flex-direction: column;
+	margin-bottom: 50px;
+	flex-wrap: wrap;
+	font-family: 'Ropa Sans', sans-serif;;
+	font-style: italic;
+	font-size: 20px;
+	align-items: center;
+}
+
+.message {
+	padding: 20px;
+}
+
+
+#container {
+	/*
+	background-color: red;
+	*/
+      width: 400px;
+      height: 400px;
+      padding: 10px;
+      overflow: hidden;
+      position: absolute;
+      margin: auto;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;     
+    }
+ 
+
+.circle {
+  border-radius: 50%;
+  background-color: deepskyblue;
+  width: 150px;
+  height: 150px;
+  position: absolute;
+  left: 30%;
+  top: 40%;
+  opacity: 0;
+  animation: scaleIn 4s infinite cubic-bezier(.36, .11, .89, .32);
+}
+
+
+@keyframes scaleIn {
+  from {
+    transform: scale(.5, .5);
+    opacity: .5;
+  }
+  to {
+    transform: scale(2.5, 2.5);
+    opacity: 0;
+  }
+}
+
+/*
+.outerContainer {
 	display: flex;
 	flex-direction: row;
 	align-content: space-evenly;
 	justify-content: safe center;
 	column-gap: 30px;
-	*/
 	position: absolute;
 }
 
 
 
-/*
+
 
 .testcircle{
   border-radius: 50%;
@@ -48,7 +120,7 @@ hr {
 }
 
 
-*/
+
 
 .circle {
 	background: #6699cc;
@@ -78,3 +150,6 @@ hr {
     box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
   }
 }
+
+*/
+

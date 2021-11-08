@@ -1,6 +1,30 @@
 body {
 	padding: 75px;
-	background-color: rgba(31, 158, 154, 0.33);
+	/*background-color: rgba(31, 158, 154, 0.33)*/;
+  background-color: #0000;
+}
+
+
+.landing {
+  bottom: 0;
+  height: 100vh;
+  padding: 0.5rem;
+  width: 100%;
+  margin-bottom: 0;
+}
+
+.navigation {
+  bottom: 0;
+  height: 60px;
+  width: 90%;
+  position: absolute;
+  }
+
+hr {
+    border: none;
+    color: rgba(31, 158, 154, 0.33);
+    text-align: center;
+    height: 5px;
 }
 
 
@@ -11,7 +35,14 @@ body {
   font-family: 'Ropa Sans', sans-serif;
   fill: rgba(31, 158, 154, 0.33);
   stroke: #6699cc;
-	font-size: 24px;
+	font-size: 30px;
+  letter-spacing: 5px;
+  display: flex;
+    flex-direction: row;
+    column-gap: 20px;
+    flex-wrap: nowrap;
+    justify-content: center;
+
 }
 
 /* Style the links inside the navigation bar */
@@ -26,13 +57,7 @@ body {
 
 /* Change the color of links on hover */
 .nav a:hover {
-  background-color: #ddd;
-  color: black;
-}
-
-/* Add an active class to highlight the current page */
-.nav a.active {
-  background-color: #04AA6D;
+  background-color: #ffda00;
   color: white;
 }
 
@@ -40,37 +65,53 @@ body {
 	font-family: 'Ropa Sans', sans-serif;
 	font-size: 64px;
 	font-style: italic;
+  /*
+  display: flex;
+  flex-direction: row;
+  grid-row-gap: 20px;
+  */
 }
 
 .one {
 	color: #61A3A5;
-	opacity: 0.2;
+	opacity: 0.05;
+  transition: all 0.8s ease;
+}
+
+.one:hover {
+  background: #9e9a1f;
+  -webkit-background-clip: text;
+  background-position: 0 100%;
+  opacity: 1;
+  cursor: url('assets/imgs/ColoredMicrophone-05.png'), auto, height;
 }
 
 .two {
 	color: #9e9a1f;
-	opacity: 0.2;
-}
-
-.three {
-	color: #9a1f9e;
-	opacity: 0.2;
-	-webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+	opacity: 0.05;
   transition: all 0.8s ease;
 }
 
-.three :hover {
-	opacity: 1;
-	cursor: pointer;
+.two:hover {
+  background: #9e9a1f;
+  -webkit-background-clip: text;
+  opacity: 1;
+  cursor: pointer;
 }
 
 
+.three {
+	color: #9a1f9e;
+	opacity: 0.05;
+	-webkit-background-clip: text;
+  transition: all 0.8s ease;
+}
+
 
 .three:hover {
-  background: -webkit-radial-gradient(#40ff00, #7d81ff, #00ed8a);
+  background: #9a1f9e;
   -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+  opacity: 1;
   cursor: pointer;
 }
 
@@ -81,7 +122,6 @@ body {
 }
 
 */
-
 
 .cactus {
         cursor: url("/uploads/media/default/0001/02/ea8020fd3fdb96affa77c8164f80d88f8c419e0f.png"), auto;
