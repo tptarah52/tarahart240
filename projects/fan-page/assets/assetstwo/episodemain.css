@@ -1,6 +1,15 @@
 body {
 	padding: 75px;
 	background-color: rgba(31, 158, 154, 0.2);
+	font-family: 'Ropa Sans', sans-serif;
+}
+
+h1 {
+	font-family: 'Ropa Sans', sans-serif;
+	margin: 50px;
+	align-items: center;
+	color: #9e9a1f;
+	letter-spacing: 20px;
 }
 
 .headingcontainer {
@@ -45,10 +54,12 @@ body {
 
 img {
 	padding: 10px;
+	width: 50%;
+	height: 20%;
 }
 
 figure {
-	margin-right: 10px;
+	margin-right: 5px;
 }
 
 .textbox {
@@ -62,4 +73,9 @@ figure {
 
 .subtext {
 	font-size: 30px;
+}
+
+.next {
+	color: black;
+	size: 100px;
 }
