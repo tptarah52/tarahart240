@@ -115,6 +115,20 @@ hr {
   cursor: pointer;
 }
 
+.four {
+  color: #61A3A5;
+  opacity: 0.05;
+  transition: all 0.8s ease;
+}
+
+.four:hover {
+  background: #9e9a1f;
+  -webkit-background-clip: text;
+  background-position: 0 100%;
+  opacity: 1;
+  cursor: pointer;
+}
+
 /*
 .volume {
 	position: relative;

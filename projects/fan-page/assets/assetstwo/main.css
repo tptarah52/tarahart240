@@ -1,6 +1,8 @@
 body {
 	padding: 75px;
-	background-color: rgba(31, 158, 154, 0.2);
+	/*
+	background-color: rgba(31, 158, 154, 0.2);*/
+	background-color: #0000;
 }
 
 
@@ -8,14 +10,15 @@ hr {
 	height: 10px;
 	border: none;
 	border-top: 3px double rgba(31, 158, 154, 0.2);
-	color: rgba(31, 158, 154, 0.2);
 }
 
 .prompt {
 	font-family: 'Ropa Sans', sans-serif;
+	color: rgba(31, 158, 154, 1);
 	font-size: 64px;
 	font-style: normal;
 	text-align: center;
+	transition: all 0.8s ease;
 }
 
 .click {
@@ -26,20 +29,13 @@ hr {
 	justify-content: center;
 }
 
-#outerContainer {
-	/* background-color: darkred; */
-	width: 100%;
-	height: 420px;
-	float: left;
-	position: relative;
-}
-
 .messages {
 	/*
 	background-color: blue;
 	*/
 	display: flex;
 	width: 340px;
+	height: 100%;
 	flex-direction: column;
 	margin-bottom: 50px;
 	flex-wrap: wrap;
@@ -49,8 +45,45 @@ hr {
 	align-items: center;
 }
 
+.right {
+	float: right;
+	width: 340px;
+	height: 100%;
+	font-family: 'Ropa Sans', sans-serif;;
+	font-style: italic;
+	font-size: 20px;
+	align-items: center;
+}
+
 .message {
 	padding: 20px;
+	display: grid;
+	grid-auto-rows: 30px;
+	grid-gap: 2rem;
+	margin-top: 50px;
+}
+
+.one {
+ color: #ffd700;
+}
+
+.two {
+	color: #9e9a1f;
+}
+
+.three {
+	color: #9a1f9e;
+}
+
+#outerContainer {
+	/* background-color: darkred; */
+	width: 100%;
+	height: 420px;
+	float: left;
+	position: relative;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
 }
 
 
