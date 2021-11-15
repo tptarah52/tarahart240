@@ -1,11 +1,25 @@
 
-// If you use a <button> tag you can query the button directly. Otherwise, you can use a CSS class on the element you click, and querySelector that class.
+
 let button = document.querySelector(".button");
-let container = document.querySelector(".container");
-button.addEventListener("click", function(event) {
-  console.log(event, event.target);
-  let newItem = document.createElement("div");
-  newItem.classList.add("new-content");
-  newItem.innerHTML = "But wait, theres more ";
-  wrapper.appendChild(newItem);
-});
+let body = document.querySelector("body");
+
+
+function getRandomNumberBetween(min,max){
+    return Math.floor(Math.random()*(max-min+1)+min);
+}
+
+
+function newColor() {
+  /*
+  let h = (min, max) => Math.floor(Math.random() * (max - min)) + min;
+  */
+  let h = getRandomNumberBetween(182, 240);
+  let s = getRandomNumberBetween(20, 100);
+  let l = getRandomNumberBetween(20, 100);
+  let randColor = color = 'hsl(' + h + ', ' + s + '%, ' + l + '%)';
+  body.style.backgroundColor = randColor;
+}
+
+
+button.addEventListener("click", newColor);
+

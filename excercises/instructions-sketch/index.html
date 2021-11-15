@@ -1,27 +1,40 @@
 
+
 <!DOCTYPE html>
 <html>
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" type="text/css" href="assets/main.css">
-  <title>Instructions</title>
+  <title>Random BG Color on Click</title>
 </head>
 <body>
-  <div class="wrapper">
-    <section>
-      <h1>Test</h1>
-    </section>
-    <section>
-      <h1>It&rsquo;s November Third</h1>
-    </section>
-  </div>
+  
+  <svg height="200" width="200" id="sun" >
+<circle cx="200" cy="0" r="200" fill="yellow" />  
+</svg>
 
-<div class="container">
+
+<svg height="200" width="400" id="cloud">
+  <defs>
+  <filter id="filter" x="0" y="0">
+  <feGaussianBlur stdDeviation=".4"/>
+  </filter>
+  
+ </defs>
+<circle cx="200" cy="80" r="50" fill="#ffffff" filter="url(#filter)"/>
+<circle cx="180" cy="120" r="40" fill="#ffffff" filter="url(#filter)"/>
+<circle cx="140" cy="100" r="40" fill="#ffffff" filter="url(#filter)"/>
+<circle cx="230" cy="125" r="30" fill="#ffffff" filter="url(#filter)"/>
+<circle cx="270" cy="115" r="35" fill="#ffffff" filter="url(#filter)"/>
+<circle cx="255" cy="65" r="25" fill="#ffffff" filter="url(#filter)"/>
+</svg>
+
+  <div class="wrapper">
     <div class="button">
-      Craving some chocolate cookies right now?
+      Color The Sky
     </div>
   </div>
-  <script src="main.js" type="text/javascript"></script>
+  <script src="assets/main.js" type="text/javascript"></script>
 </body>
 </html>
