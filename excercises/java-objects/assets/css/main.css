@@ -1,0 +1,21 @@
+
+body {
+  background-color: blue;
+  margin: 0;
+}
+
+.teen-show-container {
+  background-color: blue;
+  color: white;
+  width: 100vw;
+  /*height:  50vh;*/
+  font-size: 60px;
+}
+
+
+.day {
+  font-size: 50px;
+  padding: 20px;
+  /*background-color: white;*/
+  color: white;
+}
