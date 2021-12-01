@@ -29,6 +29,7 @@ p:hover {
   cursor: pointer;
 }
 
+
 .one {
   position: fixed;
   top: 5%;
@@ -53,11 +54,28 @@ top: 3%;
 right: 3%;
 }
 
-.five {
+#five {
   position: fixed;
   top: 8%;
   left: 40%;
 } 
+
+.large svg {
+  width:  1000px;
+  height: 1000px;
+  fill: blue;
+  transform-origin: 50% 50%;
+}
+
+#yellowblob {
+  opacity: 1;
+/*  position: fixed;
+  top: 0px;
+  left: 30%;
+  animation: scaleIn 4s;*/
+}
+
+
 
 .blueblob {
   opacity: 1;
@@ -83,13 +101,6 @@ right: 3%;
   animation: scaleIn 4s;
 }
 
-.yellowblob {
-   opacity: 1;
-  position: fixed;
-  top: 0px;
-    left: 30%;
-    animation: scaleIn 4s;
-}
 
 .pinkblob {
   opacity: 1;
