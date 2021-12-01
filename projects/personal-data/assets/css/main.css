@@ -1,0 +1,105 @@
+body {
+  background-color:  ghostwhite;
+  font-family: Open Sans;
+  font-size: 64px;
+  font-weight: Bold;
+  color: white;
+  margin: 0;
+}
+
+.container {
+  max-width: 100%;
+  height: 100vh;
+  padding: 40vh;
+}
+
+p {
+  color: #B3B3B3;
+  opacity: 0.3;
+}
+
+p:hover {
+  color: white;
+  opacity: 1;
+  cursor: pointer;
+}
+
+.one {
+  position: fixed;
+  top: 5%;
+  left: 3%;
+}
+
+.two {
+  position: fixed;
+  bottom: 5%;
+  left: 3%;
+}
+
+.three {
+position: fixed;
+bottom: 5%;
+right: 10%;
+}
+
+.four {
+position: fixed;
+top: 3%;
+right: 3%;
+}
+
+.five {
+  position: fixed;
+  top: 8%;
+  left: 40%;
+} 
+
+.blueblob {
+  opacity: 1;
+  position: fixed;
+  bottom: -10px;
+  right: -15px;
+  animation: scaleIn 4s;
+}
+
+.greenblob {
+  opacity: 1;
+  position: fixed;
+  top: 0%;
+  left: -2%;
+  animation: scaleIn 4s;
+}
+
+.lightblueblob {
+   opacity: 1;
+  position: fixed;
+  top: 0px;
+  left: 1175px;
+  animation: scaleIn 4s;
+}
+
+.yellowblob {
+   opacity: 1;
+  position: fixed;
+  top: 0px;
+    left: 30%;
+    animation: scaleIn 4s;
+}
+
+.pinkblob {
+  opacity: 1;
+  position: fixed;
+  bottom: -10px;
+  left: 0px;
+  animation: scaleIn 4s;
+}
+
+@keyframes scaleIn {
+  from {
+    transform: scale(1.2, 1.2);
+    opacity: .5;
+  }
+  to {
+    transform: scale(1, 1);
+    opacity: 1;
+  }
