@@ -1,0 +1,80 @@
+
+    body {
+      background-color: black;
+        width: 60%;
+      margin: 0 auto;
+       padding: 50px;
+       padding-right: auto;
+    }
+    
+    model-viewer {
+      width: 80vw;
+      height: 80vh;
+    }
+
+     body {
+      background-color: white;
+      margin: 0;
+    }
+
+    .container {
+      position: absolute;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      align-self: center;
+      align-content: center;
+
+    }
+
+    .interaction-prompt{
+      width: 60px;
+      height: 60px;
+    }
+
+    h1 {
+      color: white;
+      font-size: 64px;
+      font-family: 'Arima Madurai', cursive;
+      font-weight: 200;
+      text-transform: uppercase;
+      text-align: center;
+     max-width: 100%;
+    }
+
+    @media (min-width: $max-width) {
+  .container {
+    margin-left: calc(50% - 50vw);
+    margin-right: calc(50% - 50vw);
+  }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  body {background: red;
+    font-family: 'Cinzel Decorative', cursive;
+    font-family: 24px;
+  }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  body {background: pink;
+  font-family: 'Press Start 2P', cursive;
+  font-size: 36px;
+  }
+} 
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  body {background: grey;
+  font-family: 'Bebas Neue', cursive;
+  font-size: 50px;}
+
+} 
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  body {background: black;}
+}
+

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>3D</title>
+	<link rel="stylesheet" type="text/css" href="assets/main.css">
+	<script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>
+</head>
+<body>
+
+<!-- Allows you to move the camera around and rotate the object. -->
+<!-- <model-viewer src="https://cif21.labud.nyc/assets/astronaut.glb" camera-controls>
+</model-viewer> -->
+
+<!-- Provides users a hint that the model is interactive, by playing a short animation and a special cursor onto the page. -->
+<!-- <model-viewer src="https://cif21.labud.nyc/assets/astronaut.glb" camera-controls auto-rotate>
+</model-viewer> -->
+
+<!-- interaction-prompt-threshold=500 -->
+<!-- <model-viewer src="https://cif21.labud.nyc/assets/astronaut.glb" camera-controls interaction-prompt-threshold=500>
+</model-viewer>
+ -->
+<!-- changes default behavior of animation so it doesn’t wiggle when it first loads -->
+
+<!-- <model-viewer src="https://cif21.labud.nyc/assets/astronaut.glb" camera-controls interaction-prompt-threshold=500 interaction-prompt-style="basic">
+</model-viewer> -->
+
+<!-- Allows you to customize the design of the interaction prompt when you load the model -->
+<model-viewer src="https://tptarah52.github.io/tarahart240/excercises/tube.glb" camera-controls interaction-prompt-threshold=500 disable-zoom>
+  <div slot="interaction-prompt">👽</div>
+</model-viewer>
+
+
+</body>
+</html>

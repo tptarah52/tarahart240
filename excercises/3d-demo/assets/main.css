@@ -1,0 +1,25 @@
+
+    body {
+      background-color: white;
+      margin: 0;
+    }
+
+    .container {
+    	position: absolute;
+    	display: flex;
+    	justify-content: center;
+    	align-items: center;
+    }
+
+    .text{
+    	color: white;
+    	font-size: 64px;
+    	font-family: sans-serif;
+    	background-color: red;
+    }
+    
+    model-viewer {
+      width: 100vw;
+      height: 100vh;
+    }
+

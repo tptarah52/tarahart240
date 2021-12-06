@@ -1,0 +1,14 @@
+
+    body {
+      background-color: lightskyblue;
+      max-width: 100%;
+      margin: 0;
+      padding: 25px;
+    }
+    
+    model-viewer {
+      position: absolute;
+      width: 80vw;
+      height: 80vh;
+    }
+
