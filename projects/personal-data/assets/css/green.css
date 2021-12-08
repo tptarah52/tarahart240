@@ -1,5 +1,5 @@
 body {
-	background-color: #F8E6BA;
+	background-color: #3FD88D;
 }
 
 .container {
@@ -19,13 +19,13 @@ body {
 }
 
 .holder {
-  display: flex;
-  flex-direction: column;
-  width: 60px;
+	display: flex;
+	flex-direction: column;
+	width: 60px;
 }
 
 a.button{
-  display:inline-block;
+	display:inline-block;
 padding:0.35em 1.2em;
 border:0.1em solid #FFFFFF;
 margin:0 0.3em 0.3em 0;
@@ -40,8 +40,8 @@ transition: all 0.2s;
 }
 
 a.button: hover{
-  color:#000000;
-  background-color:#FFFFFF;
+	color:#000000;
+	background-color:#FFFFFF;
 }
 
 .text {
@@ -56,27 +56,29 @@ a.button: hover{
 }
 
 .number {
-  color: #FFD166;
+  color: #0F9D58;
 }
 
-#yellowblob {
+
+.greenblob {
   opacity: 1;
   position: fixed;
-  top: 0px;
-  left: 30%;
-  /*animation: scaleIn 4s;*/
+  top: 0%;
+  left: -2%;
+  animation: scaleIn 4s;
 }
 
-
-#five {
-  position:fixed;
-  top: 8%;
-  left: 40%;
+#one {
+  position: fixed;
+  top: 5%;
+  left: 3%;
   font-family: Open Sans;
   font-size: 64px;
   font-weight: Bold;
   color: white;
-} 
+}
+
+ 
 
 #board{
   display:inline;

@@ -18,15 +18,10 @@ body {
   padding: 40vh;
 }
 
-p {
+
+a:hover {
   color: #B3B3B3;
   opacity: 0.3;
-}
-
-p:hover {
-  color: white;
-  opacity: 1;
-  cursor: pointer;
 }
 
 
@@ -34,30 +29,40 @@ p:hover {
   position: fixed;
   top: 5%;
   left: 3%;
+  color: white;
+  text-decoration: none;
 }
 
 #two {
   position: fixed;
   bottom: 5%;
   left: 3%;
+  color: white;
+  text-decoration: none;
 }
 
 #three {
 position: fixed;
 bottom: 5%;
 right: 10%;
+color: white;
+  text-decoration: none;
 }
 
 #four {
 position: fixed;
-top: 0%;
+top: 5%;
 right: 3%;
+color: white;
+text-decoration: none;
 }
 
 #five {
   position:fixed;
-  top: 8%;
+  top: 5%;
   left: 40%;
+  color: white;
+  text-decoration: none;
 } 
 
 .large svg {
