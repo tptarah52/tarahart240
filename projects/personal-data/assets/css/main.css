@@ -30,32 +30,32 @@ p:hover {
 }
 
 
-.one {
+#one {
   position: fixed;
   top: 5%;
   left: 3%;
 }
 
-.two {
+#two {
   position: fixed;
   bottom: 5%;
   left: 3%;
 }
 
-.three {
+#three {
 position: fixed;
 bottom: 5%;
 right: 10%;
 }
 
-.four {
+#four {
 position: fixed;
-top: 3%;
+top: 0%;
 right: 3%;
 }
 
 #five {
-  position: fixed;
+  position:fixed;
   top: 8%;
   left: 40%;
 } 
@@ -65,14 +65,15 @@ right: 3%;
   height: 1000px;
   fill: blue;
   transform-origin: 50% 50%;
+
 }
 
 #yellowblob {
   opacity: 1;
-/*  position: fixed;
+  position: fixed;
   top: 0px;
   left: 30%;
-  animation: scaleIn 4s;*/
+  animation: scaleIn 4s;
 }
 
 
@@ -94,7 +95,7 @@ right: 3%;
 }
 
 .lightblueblob {
-   opacity: 1;
+  opacity: 1;
   position: fixed;
   top: 0px;
   left: 1175px;
@@ -119,3 +120,4 @@ right: 3%;
     transform: scale(1, 1);
     opacity: 1;
   }
+
