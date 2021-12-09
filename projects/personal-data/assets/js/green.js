@@ -22,13 +22,6 @@ function getRandomNumberBetween(min,max){
 }
 
 function getRandomColor() {
-    // var letters = '0123456789ABCDEF'.split('');
-    // var color = '#';
-    // for (var i = 0; i < 6; i++ ) {
-    //     color += letters[Math.floor(Math.random() * 16)];
-    // }
-    // return color;
-
   let h = getRandomNumberBetween(129, 182);
   let s = getRandomNumberBetween(30, 96);
   let l = getRandomNumberBetween(30, 96);
@@ -37,7 +30,7 @@ function getRandomColor() {
 }
 
 function getRandomRadius () {
-    var radius = Math.floor(Math.random()*20);
+    var radius = Math.floor(Math.random()*15);
     return radius;
 }
 	

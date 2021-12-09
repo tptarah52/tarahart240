@@ -1,5 +1,6 @@
 body {
-	background-color: #F8E6BA;
+	background-color: #FFF6E1;
+
 }
 
 .container {
@@ -7,7 +8,9 @@ body {
   flex-direction: row;
   justify-content: center;
   column-gap: 40px;
-  right: 60%;
+  right: 70%;
+  margin: 0px;
+  padding-left: 130px;
 }
 
 .wrapper {
@@ -21,22 +24,23 @@ body {
 .holder {
   display: flex;
   flex-direction: column;
-  width: 60px;
+  width: 10px;
 }
 
 a.button{
   display:inline-block;
 padding:0.35em 1.2em;
-border:0.1em solid #FFFFFF;
+border:0.1em solid #FFD166;
 margin:0 0.3em 0.3em 0;
 border-radius:0.12em;
 box-sizing: border-box;
 text-decoration:none;
 font-family:'Roboto',sans-serif;
 font-weight:300;
-color:#FFFFFF;
+color:#FFD166;
 text-align:center;
 transition: all 0.2s;
+width: 7em;
 }
 
 a.button: hover{
@@ -63,15 +67,16 @@ a.button: hover{
   opacity: 1;
   position: fixed;
   top: 0px;
-  left: 30%;
+  left: 0%;
   /*animation: scaleIn 4s;*/
+  /*z-index: -1;*/
 }
 
 
 #five {
   position:fixed;
   top: 8%;
-  left: 40%;
+  left: 8%;
   font-family: Open Sans;
   font-size: 64px;
   font-weight: Bold;

@@ -17,16 +17,28 @@ for(var i=0;i<4227;i++){
     ctx.closePath();
 }
 
-function getRandomColor() {
-    var letters = '0123456789ABCDEF'.split('');
-    var color = '#';
-    for (var i = 0; i < 6; i++ ) {
-        color += letters[Math.floor(Math.random() * 16)];
-    }
-    return color;
+function getRandomNumberBetween(min,max){
+    return Math.floor(Math.random()*(max-min+1)+min);
 }
 
+function getRandomColor() {
+  let h = getRandomNumberBetween(344, 346);
+  let s = getRandomNumberBetween(60, 100);
+  let l = getRandomNumberBetween(15, 100);
+  let randColor = 'hsl(' + h + ', ' + s + '%, ' + l + '%)';
+  return randColor;
+}
+
+// function getRandomColor() {
+//     var letters = '0123456789ABCDEF'.split('');
+//     var color = '#';
+//     for (var i = 0; i < 6; i++ ) {
+//         color += letters[Math.floor(Math.random() * 16)];
+//     }
+//     return color;
+// }
+
 function getRandomRadius () {
-    var radius = Math.floor(Math.random()*20);
+    var radius = Math.floor(Math.random()*25);
     return radius;
 }

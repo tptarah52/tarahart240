@@ -1,5 +1,5 @@
 body {
-	background-color: #2E748B;
+	background-color: #DBF6FF;
 }
 
 .container {
@@ -7,7 +7,7 @@ body {
   flex-direction: row;
   justify-content: center;
   column-gap: 40px;
-  right: 60%;
+  right: 70%;
 }
 
 .wrapper {
@@ -27,16 +27,17 @@ body {
 a.button{
   display:inline-block;
 padding:0.35em 1.2em;
-border:0.1em solid #FFFFFF;
-margin:0 0.3em 0.3em 0;
+border:0.1em solid #073B4C;
+margin:0 0.8em 0.8em 0;
 border-radius:0.12em;
 box-sizing: border-box;
 text-decoration:none;
 font-family:'Roboto',sans-serif;
 font-weight:300;
-color:#FFFFFF;
+color:#073B4C;
 text-align:center;
 transition: all 0.2s;
+width: 7em;
 }
 
 a.button: hover{
@@ -49,7 +50,7 @@ a.button: hover{
   font-size: 36px;
   font-weight: bold;
   color: black;
-  padding-top: 40vh;
+  padding-top: 30vh;
   width: 239px;
   align-content: center;
   
